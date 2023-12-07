@@ -1,4 +1,141 @@
 body {
 
-    background-color: #d9d9d9;
+    background-color: #fff;
+}
+
+.header__container {
+    display: grid;
+    width: 99.98vw;
+    height: 8vh;
+    grid-template-columns: 2fr 3fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__link {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.header__contacts {
+    display: flex;
+}
+
+.header__contact {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/first_photo_alter.jpg");
+    height: 91vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__content {
+    margin-left: -2%;
+}
+
+.main__title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 77px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+}
+
+.main__text {
+    font-family: 'Heebo', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #1A1A1A;
+margin-top: 5px;
+
+}
+
+.main__button {
+    margin-top: 30px;
+    width: 362px;
+height: 40px;
+top: 576px;
+left: 585px;
+border: 1px;
+color: #1A1A1A;
+border-style: solid;
+border-color: #1A1A1A;
+background-color: #D2D0CFFF;
+font-family: 'Heebo', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.5px;
+text-align: center;
+color: #1A1A1A;
+
+}
+
+.footer__container {
+    display: grid;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 5% 8% 5px 8%;
+    grid-template-columns: 5fr repeat(5, 2fr) 3fr;
+    
+}
+
+.footer__link {
+    color: #1A1A1A;
+    text-decoration: none;
+
+}
+
+.footer__item {
+    font-family: 'Heebo', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #1A1A1A;
+list-style: none;
+}
+
+.footer__copyright {
+    grid-column-start: 7;
+    margin-left: 8%;
+    font-family: 'Heebo', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #1A1A1A;
+}
+
+.footer__contact {
+    margin-right: 10%;
+    
 }
